@@ -35,7 +35,7 @@ export default function WelcomeScreen({ onStart }: WelcomeScreenProps) {
           <span className="inline-block text-xs font-semibold tracking-widest uppercase text-primary/70 mb-4">
             Orientación vocacional
           </span>
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-foreground leading-tight text-balance">
+          <h1 className="font-serif text-3xl sm:text-4xl font-extrabold text-foreground leading-tight text-balance">
             Exploración de intereses vocacionales
           </h1>
         </div>

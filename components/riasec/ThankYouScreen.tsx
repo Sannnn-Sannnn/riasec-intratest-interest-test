@@ -36,7 +36,7 @@ export default function ThankYouScreen({ result, onRestart }: ThankYouScreenProp
           Recorrido completado
         </span>
 
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-6 text-balance leading-tight">
+        <h1 className="font-serif text-3xl sm:text-4xl font-extrabold text-foreground mb-6 text-balance leading-tight">
           Gracias por completar el recorrido
         </h1>
 

@@ -204,7 +204,7 @@ export default function TestScreen({ onComplete }: TestScreenProps) {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       {/* ── Top bar ─────────────────────────────────────────────────────────── */}
-      <header className="sticky top-0 z-20 bg-background/95 backdrop-blur-sm border-b border-border px-4 py-3">
+      <header className="sticky top-0 z-20 bg-primary border-b border-border px-4 py-3">
         <div className="max-w-xl mx-auto">
           <div className="flex items-center justify-between mb-2.5">
             {/* Back button */}
@@ -213,10 +213,10 @@ export default function TestScreen({ onComplete }: TestScreenProps) {
               disabled={currentIndex === 0}
               aria-label="Volver a la pregunta anterior"
               className={cn(
-                "flex items-center gap-1.5 text-sm font-semibold px-3 py-1.5 rounded-xl transition-all",
+                "flex items-center gap-1.5 text-sm font-semibold px-3 py-1.5 rounded-2xl transition-all",
                 currentIndex === 0
-                  ? "text-muted-foreground/30 cursor-not-allowed"
-                  : "text-primary hover:bg-primary/10 active:scale-95 cursor-pointer"
+                  ? "text-primary-foreground/30 bg-primary/30 cursor-not-allowed border-3 border-accent/30"
+                  : "text-primary-foreground bg-primary hover:bg-accent hover:text-foreground active:scale-95 cursor-pointer border-3 border-accent"
               )}
             >
               <svg
@@ -236,12 +236,12 @@ export default function TestScreen({ onComplete }: TestScreenProps) {
             </button>
 
             {/* Counter */}
-            <span className="text-sm font-bold text-foreground">
+            <span className="text-sm font-bold text-primary-foreground">
               {currentIndex + 1} / {TOTAL}
             </span>
 
             {/* Block indicator */}
-            <span className="text-xs text-muted-foreground font-medium min-w-[60px] text-right">
+            <span className="text-xs text-primary-foreground font-bold min-w-[60px] text-right">
               Bloque {item.block}/8
             </span>
           </div>
@@ -255,7 +255,7 @@ export default function TestScreen({ onComplete }: TestScreenProps) {
             aria-valuemax={TOTAL}
           >
             <div
-              className="h-full bg-primary rounded-full transition-all duration-500 ease-out"
+              className="h-full bg-accent rounded-full transition-all duration-500 ease-out"
               style={{ width: `${progress}%` }}
             />
           </div>
