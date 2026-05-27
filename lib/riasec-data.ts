@@ -226,7 +226,7 @@ export const testItems: TestItem[] = [
     question: "Al ver esta escena, ¿cuánto te gustaría realizar una actividad parecida?",
     visualBrief: "Persona trabajando en un taller con herramientas, piezas y una mesa de trabajo.",
     activity: "Reparar, armar o ajustar objetos con herramientas.",
-    imageSrc: "/images/riasec-scenes/R-TV-01.png",
+    imageSrc: "/images/riasec-scenes/R-TV-01.jpg",
   },
   {
     id: "I-TV-01",
@@ -238,7 +238,7 @@ export const testItems: TestItem[] = [
     question: "Al ver esta escena, ¿cuánto te gustaría realizar una actividad parecida?",
     visualBrief: "Persona observando muestras, datos o elementos en un laboratorio.",
     activity: "Investigar evidencia para entender cómo funciona algo.",
-    imageSrc: "/images/riasec-scenes/I-TV-01.png",
+    imageSrc: "/images/riasec-scenes/I-TV-01.jpg",
   },
   {
     id: "A-TV-01",
@@ -250,7 +250,7 @@ export const testItems: TestItem[] = [
     question: "Al ver esta escena, ¿cuánto te gustaría realizar una actividad parecida?",
     visualBrief: "Persona dibujando, diseñando o creando una composición visual.",
     activity: "Crear una propuesta visual original.",
-    imageSrc: "/images/riasec-scenes/A-TV-01.png",
+    imageSrc: "/images/riasec-scenes/A-TV-01.jpg",
   },
   {
     id: "S-TV-01",
@@ -262,7 +262,7 @@ export const testItems: TestItem[] = [
     question: "Al ver esta escena, ¿cuánto te gustaría realizar una actividad parecida?",
     visualBrief: "Persona explicando algo a otra en una mesa, aula o espacio de apoyo.",
     activity: "Ayudar a alguien a comprender o resolver una dificultad.",
-    imageSrc: "/images/riasec-scenes/S-TV-01.png",
+    imageSrc: "/images/riasec-scenes/S-TV-01.jpg",
   },
   {
     id: "E-TV-01",
@@ -274,7 +274,7 @@ export const testItems: TestItem[] = [
     question: "Al ver esta escena, ¿cuánto te gustaría realizar una actividad parecida?",
     visualBrief: "Persona presentando una idea frente a un grupo o equipo.",
     activity: "Liderar una propuesta y convencer a otros de participar.",
-    imageSrc: "/images/riasec-scenes/E-TV-01.png",
+    imageSrc: "/images/riasec-scenes/E-TV-01.jpg",
   },
   {
     id: "C-TV-01",
@@ -286,7 +286,7 @@ export const testItems: TestItem[] = [
     question: "Al ver esta escena, ¿cuánto te gustaría realizar una actividad parecida?",
     visualBrief: "Persona revisando planillas, documentos y listas ordenadas.",
     activity: "Organizar datos y controlar que la información sea correcta.",
-    imageSrc: "/images/riasec-scenes/C-TV-01.png",
+    imageSrc: "/images/riasec-scenes/C-TV-01.jpg",
   },
 
   // ── Block 4: Occupation cards ───────────────────────────────────────────────
@@ -492,7 +492,7 @@ export const testItems: TestItem[] = [
     question: "Al ver esta escena, ¿cuánto te gustaría realizar una actividad parecida?",
     visualBrief: "Persona al aire libre revisando equipamiento, materiales o estructuras.",
     activity: "Realizar tareas prácticas en espacios físicos o técnicos.",
-    imageSrc: "/images/riasec-scenes/R-TV-02.png",
+    imageSrc: "/images/riasec-scenes/R-TV-02.jpg",
   },
   {
     id: "I-TV-02",
@@ -504,7 +504,7 @@ export const testItems: TestItem[] = [
     question: "Al ver esta escena, ¿cuánto te gustaría realizar una actividad parecida?",
     visualBrief: "Persona frente a gráficos, notas y datos buscando una explicación.",
     activity: "Analizar información para encontrar patrones o causas.",
-    imageSrc: "/images/riasec-scenes/I-TV-02.png",
+    imageSrc: "/images/riasec-scenes/I-TV-02.jpg",
   },
   {
     id: "A-TV-02",
@@ -516,7 +516,7 @@ export const testItems: TestItem[] = [
     question: "Al ver esta escena, ¿cuánto te gustaría realizar una actividad parecida?",
     visualBrief: "Persona en un espacio creativo con música, escritura, diseño o arte.",
     activity: "Expresar ideas usando recursos creativos.",
-    imageSrc: "/images/riasec-scenes/A-TV-02.png",
+    imageSrc: "/images/riasec-scenes/A-TV-02.jpg",
   },
   {
     id: "S-TV-02",
@@ -528,7 +528,7 @@ export const testItems: TestItem[] = [
     question: "Al ver esta escena, ¿cuánto te gustaría realizar una actividad parecida?",
     visualBrief: "Grupo conversando en un espacio de acompañamiento o aprendizaje.",
     activity: "Escuchar, orientar o acompañar a otras personas.",
-    imageSrc: "/images/riasec-scenes/S-TV-02.png",
+    imageSrc: "/images/riasec-scenes/S-TV-02.jpg",
   },
   {
     id: "E-TV-02",
@@ -540,7 +540,7 @@ export const testItems: TestItem[] = [
     question: "Al ver esta escena, ¿cuánto te gustaría realizar una actividad parecida?",
     visualBrief: "Grupo planificando un proyecto, campaña o emprendimiento.",
     activity: "Coordinar personas para llevar adelante una iniciativa.",
-    imageSrc: "/images/riasec-scenes/E-TV-02.png",
+    imageSrc: "/images/riasec-scenes/E-TV-02.jpg",
   },
   {
     id: "C-TV-02",
@@ -552,7 +552,7 @@ export const testItems: TestItem[] = [
     question: "Al ver esta escena, ¿cuánto te gustaría realizar una actividad parecida?",
     visualBrief: "Persona clasificando archivos, formularios o registros digitales.",
     activity: "Seguir procedimientos para ordenar y verificar información.",
-    imageSrc: "/images/riasec-scenes/C-TV-02.png",
+    imageSrc: "/images/riasec-scenes/C-TV-02.jpg",
   },
 
   // ── Block 8: Occupation cards ───────────────────────────────────────────────
